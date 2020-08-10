@@ -1,0 +1,41 @@
+\documentclass[12pt,oneside]{ntuthesis}
+\usepackage{fontspec}
+\usepackage{subfig} 
+\usepackage{grffile}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{array}
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+\newcolumntype{C}[1]{>{\PreserveBackslash\centering}p{#1}}
+\newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
+\newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
+\definecolor{lg}{rgb}{0.8, 1, 0.8}
+\definecolor{dg}{rgb}{0, 0.5, 0}
+\setmainfont{Times New Roman}
+\pagestyle{plain}
+
+\begin{document}
+
+\include{cover}
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+
+% \include{contents}
+\include{chapters/1}
+\include{chapters/2}
+\include{chapters/3}
+\include{chapters/4}
+\bibliographystyle{./IEEEtran}
+\bibliography{IEEEabrv,main}
+
+% \bibliographystyle{plain}
+% \bibliography{main}
+
+\appendix
+\include{chapters/app_1}
+% \include{chapters/appb}
+\end{document}

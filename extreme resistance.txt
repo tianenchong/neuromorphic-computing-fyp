@@ -1,0 +1,17 @@
+all R = 1000, same R_F, same random V
+
+Simulated	Ideal		Calculated	Closeness in Percent rel to Ideal
+2.766582	4.973581	37154.733006	55.625561
+2.766582	4.973581	37154.733006	55.625561
+
+Average (%) 55.625561
+
+
+
+all R = 3000, same R_F, same random V
+
+Simulated	Ideal		Calculated	Closeness in Percent rel to Ideal
+2.653436	1.617143	12080.732979	164.081739
+2.653436	1.617143	12080.732979	164.081739
+
+Average (%) 164.081739

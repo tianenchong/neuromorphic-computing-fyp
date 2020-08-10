@@ -1,0 +1,9 @@
+MOS TYPE	1.2V On almost constant(Ohm)	1.2V Off Spike(Ohm)
+pch_18		3.43k				1.316G
+pch		2.32k				24G
+nch		1.2k				3.44G
+nch_18		102.2k				785.8M
+
+0.001	1
+1000	1
+20M	20000

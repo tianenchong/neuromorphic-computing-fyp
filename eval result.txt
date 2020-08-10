@@ -1,0 +1,17 @@
+weight >0
+input 10 dense 92.42
+input 1000 dense 92.36
+input 20 conv maxpool 10 dense 91.78
+input 100 conv maxpool 10 dense 91.15
+input 20 conv maxpool x2 10 dense 89.75
+input 20 conv maxpool 50 conv maxpool 10 dense 91.33
+
+
+weight >0 & <1
+input 10 dense 88.18
+input 20 dense 90.20
+input 1000 dense 92.52
+input 20 conv maxpool 10 dense 95.61
+input 100 conv maxpool 10 dense 96.27
+input 20 conv maxpool x2 10 dense 97.97
+input 20 conv maxpool 50 conv maxpool 10 dense 98.14

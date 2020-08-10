@@ -1,0 +1,27 @@
+background:
+In the beginning, I was applying for master in machine intelligence (with specialisation in robotics)
+Supervisor asked me what do I want to do for my fyp (I told him I liked to bridge the gap to master program) and he let me choose the proportion of hardware and software (which I choose to have more software but still retain hardware implementation so next time I can explore better algorithm with hardware based implementation in robotics)
+My supervisor told all of us in his fyp group that the point is to learn.
+In a meeting with my co-supervisor, he told me about things as simple as tweaking the parameters of the model to implement the simulation. When I was ready to simulate the dynamics of 8-step domain wall based synapse, he told me there was no model for it, and I was shocked. Seeing no way forward, I resorted to simulating just the resistance range with him in agreement, because it was too late to change and my hand was full with working around non-ideal and erroneous behaviour of the circuit. In the midst of February, he shared with everyone kaushik et al's paper about simulation in domain wall based on-chip training (they used ideal model). I got another shock of my life and I asked him about the point of doing my fyp when someone else have done it even better and he told me for undergraduate level it is alright. By the way, Kaushik et al's paper was published in February and I did included them in my literature review and the 8-step domain wall based synapse is now a part of a phd student's project.
+
+Now, back to your question, if I were to do it all over again, I would like to do something similar, yet different. Since the point of fyp is to understand and learn new technologies (it would be better if I were to invent something new), I would like to see more of the simulating the dynamics of a synapse, less the static, fixed resistance value one. I have the binary based single-step MTJ mram model, not the 8-step domain based one, which mean the network architure would change dramatically, and there would be no Tensorflow (which my co-supervisor instructed me to use), because Tensorflow still cannot deal with different weight resolution, and I might come up with my own training method in c plus plus or even directly training on the circuit itself. Nevertheless, the simulation is still extremely slow on the fyp server in School of Computer Science and Engineering, and the server definitely needs an upgrade. Also, I read on a few papers about a sharply reduced synaptic weight resolution can result in huge accuracy loss, but not if I train on the circuit itself directly.
+
+fetch-decode-execute
+
+arrow is showing -|J|, electron flow
+
+dphi = M dq (M - Memristance)
+
+The term “von Neumann bottleneck” was coined by John Backus in his 1978 Turing Award lecture to refer to the bus connecting the CPU to the store in von Neumann architectures. In this lecture, he argued that the bus was a bottleneck because programs execute on the CPU and must “pump single words back and forth through the von Neumann bottleneck” to perform computations
+
+kaushik et al published on February end-to-end on-chip DW spiked-based neuromorphic computing
+
+small foorprint if consider both computation and memory as a single unit, cmos need separate unit for computation and memory
+
+body connect to source to maintain a defined v threshold
+
+V_on should be V_om (errata)
+
+-40mV should be +40mV (errata)
+
+In the recent year of artificial intelligence and spintronics memory device technology advancement, there is a potential to create high performance and low power neuromorphic network, a hardware-based implementation of neural network. Spintronics memory device is involved in the design of a synapse in a neuromorphic network. In this project, we designed 4 versions of neuromorphic network, trained MNIST dataset off-ship on TensorFlow platform, post-processed the trained weights into 8 levels, discretised form, corresponding to the weight range representable by SOT/SHE MRAM, before simulating the same dataset on the neuromorphic network in Cadence Virtuoso. The intermediate output of TensorFlow was used to simulate the 2nd layer (10 by 20 synapses) and achieved an accuracy of 81.02% vs TensorFlow model accuracy of 80.24%. We have also attempted to simulate a full, multi-layer network but faced with scaling challenges. Furthermore, we studied the challenges posed by the practical, manufacturable and non-ideal neuromorphic network in detail. Future work may include sorting out the shortcoming in the current implementation of neuromorphic network, extending to very large scale simulation, simulating the behaviour model of read/write cycles of MRAM in Cadence Virtuoso, conversion to spike-based (SNN) architecture and ultimately on-chip training of the SNN network.

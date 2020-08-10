@@ -1,0 +1,80 @@
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'bioneuron.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{893.43089557bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.72731233)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{bioneuron.pdf}}%
+    \put(0.48700068,0.45827506){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Actionpotential\end{tabular}}}}%
+    \put(0.36896186,0.37058191){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Voltage (mV)\end{tabular}}}}}%
+    \put(0.45753624,0.3613871){\rotatebox{74.03492839}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Depolarization\end{tabular}}}}}%
+    \put(0.49724545,0.40696848){\rotatebox{-81.76168929}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Repolarization\end{tabular}}}}}%
+    \put(0.38903346,0.35047179){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Threshold\end{tabular}}}}%
+    \put(0.41474359,0.32249134){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Stimulus\end{tabular}}}}%
+    \put(0.48061513,0.35382003){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Failedinitiations\end{tabular}}}}%
+    \put(0.54666451,0.33623796){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Resting state\end{tabular}}}}%
+    \put(0.5345908,0.31756336){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Refractoryperiod\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{bioneuron.pdf}}%
+    \put(0.36805519,0.44040529){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+40\end{tabular}}}}%
+    \put(0.37967228,0.39496862){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.37099442,0.34640007){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-55\end{tabular}}}}%
+    \put(0.37095554,0.3309701){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-70\end{tabular}}}}%
+    \put(0.40733556,0.27462788){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.44204288,0.27462788){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.47528349,0.27462788){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0.51029608,0.27462788){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0.54593491,0.27465244){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0.57917552,0.27473376){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0.47514121,0.2638965){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Time (ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{bioneuron.pdf}}%
+  \end{picture}%
+\endgroup%

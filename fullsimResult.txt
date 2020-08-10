@@ -1,0 +1,10 @@
+Actual: 7	Predicted: 0	Accuracy: 0.000000
+Actual: 2	Predicted: 0	Accuracy: 0.000000
+Actual: 1	Predicted: 0	Accuracy: 0.000000
+Actual: 0	Predicted: 0	Accuracy: 25.000000
+Actual: 4	Predicted: 0	Accuracy: 20.000000
+Actual: 1	Predicted: 0	Accuracy: 16.666667
+Actual: 4	Predicted: 0	Accuracy: 14.285714
+Actual: 9	Predicted: 0	Accuracy: 12.500000
+Actual: 5	Predicted: 0	Accuracy: 11.111111
+Actual: 9	Predicted: 0	Accuracy: 10.000000
